@@ -18,7 +18,7 @@ header {
     top: 136px;
     left: 12px;
     position: relative;
-    background-size: contain;
+    background-size: 140px 210px;
     box-shadow: -12px 0 0 12px #000;
 }
 
