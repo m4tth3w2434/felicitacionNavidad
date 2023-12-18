@@ -99,11 +99,12 @@ a.next:hover {
 img {
     max-width: 100%;
     width: 100%;
-    position: fixed;
+    position: relative;
     left: 0;
 }
 
 .footer {
     background-image: url("./assets/img/pngtree-red-textured-christmas-ball-leaf-decoration-border-background-image_504713.jpg");
-    width: 250px;
+    width: 100%;
+    margin-top: 50px;
 }
