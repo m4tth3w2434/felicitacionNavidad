@@ -5,9 +5,12 @@
 }
 
 header {
-    height: 40px;
+    height: 80px;
     width: 100%;
-    background: rgb(255, 0, 0);
+    background: red url(./assets/img/9994341.png);
+    background-position: top;
+    background-size: cover;
+
 }
 
 .thumb {
