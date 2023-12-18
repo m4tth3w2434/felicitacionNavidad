@@ -91,15 +91,6 @@ img {
 }
 
 .footer {
-<<<<<<< HEAD
-    background-image: url("./assets/img/pngtree-red-textured-christmas-ball-leaf-decoration-border-background-image_504713.jpg");
-    width: 250px;
-}
-
-.musica {
-    background: #fde624 url('./assets/audio/AllIWant.mp3') no-repeat 16px 16px;
-}
-=======
     background-image: url("./assets/img/7c8e377523b9d45cb3e1f9ec1b701e0f.jpg");
     width: 100%;
     height: 100vh;
@@ -107,4 +98,3 @@ img {
     background-size: cover;
     background-position: center;
 }
->>>>>>> b13ec1c57fc4ec1d63a9eb45df307f72cde04b53
