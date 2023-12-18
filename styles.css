@@ -54,10 +54,6 @@ header div.thumbnail-peekaboo {
     position: absolute;
 }
 
-/*header div.thumbnail-peekaboo:hover {
-        -webkit-animation: TMNT 4s ease-in;
-        -webkit-animation-fill-mode:backwards;
-    }*/
 .thumb {
     height: 140px;
     width: 210px;
@@ -88,16 +84,6 @@ header div.thumbnail-peekaboo {
     filter: gray;
 }
 
-@-webkit-keyframes TMNT {
-    0% {
-        left: 0px;
-    }
-
-    100% {
-        left: -1200px;
-    }
-}
-
 a.prev,
 a.next {
     height: 91px;
@@ -108,12 +94,13 @@ a.next {
     opacity: 0.6;
     text-indent: -99999px;
     cursor: pointer;
-    -webkit-transition: opacity 200ms ease-out;
+    transition: transform 0.3s ease;
 }
 
 a.prev:hover,
 a.next:hover {
     opacity: 1;
+    transform: scale(1.1);
 }
 
 .prev {
@@ -146,4 +133,5 @@ img {
     width: 100%;
     position: fixed;
     left: 0;
+    z-index: -1;
 }
