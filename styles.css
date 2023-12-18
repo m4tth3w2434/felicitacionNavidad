@@ -147,3 +147,8 @@ img {
     position: fixed;
     left: 0;
 }
+
+.footer {
+    background-image: url("./assets/img/pngtree-red-textured-christmas-ball-leaf-decoration-border-background-image_504713.jpg");
+    width: 250px;
+}
